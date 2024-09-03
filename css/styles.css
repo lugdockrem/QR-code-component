@@ -3,10 +3,19 @@
 a {
   text-decoration: none;
   margin: 0;
-  padding: 0; /* Добавляем padding: 0; */
-  box-sizing: border-box; /* Добавляем box-sizing */
+  padding: 0;
+  box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 :root {
   --color-blue-600: #007bff;
   --color-slate-900: #1a202c;
@@ -85,5 +94,8 @@ body {
 @media screen and (min-width: 1440px) {
   body {
     background-color: var(--color-slate-300);
+  }
+  .attribution {
+    display: none;
   }
 }
